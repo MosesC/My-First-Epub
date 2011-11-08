@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<package version="2.0" xmlns="http://www.idpf.org/2007/opf" unique-identifier="BookId">
+ 
+  <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
+    <dc:title>Book1</dc:title>
+    <dc:language>en</dc:language>
+    <dc:identifier id="BookId" opf:scheme="ISBN">123456789X</dc:identifier>
+    <dc:creator>FirstName, LastName</dc:creator>
+  </metadata>
+ 
+  <manifest>
+	<!-- Content Documents -->
+    <item id="chapter1" href="chapter1.xhtml" media-type="application/xhtml+xml"/>
+    <item id="chapter2" href="chapter2.xhtml" media-type="application/xhtml+xml"/>
+	<item id="chapter3" href="chapter3.xhtml" media-type="application/xhtml+xml"/>
+	<item id="chapter4" href="chapter4.xhtml" media-type="application/xhtml+xml"/>
+	<item id="chapter5" href="chapter5.xhtml" media-type="application/xhtml+xml"/>
+	
+	<!-- CSS Style Sheets -->
+    <item id="main-css" href="main.css" media-type="text/css"/>	
+	
+	<!-- NCX -->
+    <item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml"/>
+  </manifest>
+ 
+  <spine toc="ncx">
+    <itemref idref="chapter1.xhtml" media-type="application/xhtml+xml"/>
+	<itemref idref="chapter2.xhtml" media-type="application/xhtml+xml"/>
+	<itemref idref="chapter3.xhtml" media-type="application/xhtml+xml"/>
+	<itemref idref="chapter4.xhtml" media-type="application/xhtml+xml"/>
+	<itemref idref="chapter5.xhtml" media-type="application/xhtml+xml"/>
+  </spine>
+ 
+  <guide>
+    <reference type="loi" title="List Of Illustrations" href="appendix.html#figures" />
+  </guide>
+ 
+</package>
