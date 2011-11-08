@@ -1,11 +1,19 @@
------------------------------------------------------------------------GitHub Project Log-------------------------------------------------------------------------------------
-This log will detail the different problems and discoveries i make about GitHub while i learn to use it through the My-First-Epub project. Two birds with one stone, eh?
+---------------------------------------------------GitHub Project Log--------------------------------------------------------
+This log will detail the different problems and discoveries i make about GitHub while i learn to use it through the My-First-
+Epub project. Two birds with one stone, eh?
 
 
-------------------------------------------------------------------------Log 1 (11/8/11)---------------------------------------------------------------------------------------
-Well the first commit, that i made accoording to the guide went smoothly and updated to GitHub. But when i tried making other commits they worked, and got errors and, did
-not update to the central repository. I wondered what was wrong and realized that a "commit" is: an update/snapshot of your current project, which is stored locally on the
-computer that you're working on. I found out that i needed to "push" the commit (the changes made) to the central repository on GitHub. I found this using the GitGui and did
-a force push as not to get errors. I now plan to "push" this file to the repo when im done with it and start on building the website in another directory.
+----------------------------------------------------Log 1 (11/8/11)----------------------------------------------------------
+Well the first commit, that i made accoording to the guide went smoothly and updated to GitHub. But when i tried making other 
+commits they worked, and got errors and, did not update to the central repository. I wondered what was wrong and realized that 
+a "commit" is: an update/snapshot of your current project, which is stored locally on the computer that you're working on. I 
+found out that i needed to "push" the commit (the changes made) to the central repository on GitHub. I found this using the 
+GitGui and did a force push as not to get errors. I now plan to "push" this file to the repo when im done with it and start on 
+building the website in another directory.
 
-------------------------------------------------------------------------Log 2 (??/??/??)--------------------------------------------------------------------------------------
+----------------------------------------------------Log 2 (11/8/11)----------------------------------------------------------
+Wow, i just downloaded a VIM cheatsheet and learned to use VIM really quickly. The thing that was making it hard was that i
+didn't know how to enter commands. The basic part is "Visual Mode" where you type the msg for your commit. After that you
+would press ESC to exit "Visual Mode" and enter "Command Mode". Here you can use the command -w to save and then -q to quit
+
+----------------------------------------------------Log 3 (??/??/??)----------------------------------------------------------
