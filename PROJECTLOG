@@ -1,0 +1,11 @@
+-----------------------------------------------------------------------GitHub Project Log-------------------------------------------------------------------------------------
+This log will detail the different problems and discoveries i make about GitHub while i learn to use it through the My-First-Epub project. Two birds with one stone, eh?
+
+
+------------------------------------------------------------------------Log 1 (11/8/11)---------------------------------------------------------------------------------------
+Well the first commit, that i made accoording to the guide went smoothly and updated to GitHub. But when i tried making other commits they worked, and got errors and, did
+not update to the central repository. I wondered what was wrong and realized that a "commit" is: an update/snapshot of your current project, which is stored locally on the
+computer that you're working on. I found out that i needed to "push" the commit (the changes made) to the central repository on GitHub. I found this using the GitGui and did
+a force push as not to get errors. I now plan to "push" this file to the repo when im done with it and start on building the website in another directory.
+
+------------------------------------------------------------------------Log 2 (??/??/??)--------------------------------------------------------------------------------------
